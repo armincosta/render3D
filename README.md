@@ -1,5 +1,5 @@
 # render3D
-This module source code is part of a software that  renders multiple 3D objects (logs) using OpenGL and performs matching and measurements on the data.
+This module source code is part of a software that  renders multiple 3D objects (logs) using OpenGL and performs matching and measurements on the data. Note that this is not a build and run source code, but merely a frustum that can be adapted to specific needs.
 
        CT (Computed Tomography) Tomolog3DMatching and 3D-Shape Visualization Software (3D-Shape1 measures
        the log with bark , CT also with bark, and 3D-Shape in debarked status). It provides also an 
