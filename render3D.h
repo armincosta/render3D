@@ -17,6 +17,8 @@
 *
 *	file: render3D.cpp
 *
+*	This source code is distributed under the GNU GENERAL PUBLIC LICENSE Version 3 in the hope it might be helpful
+*
 *	
 **/
 #ifndef __RENDER_HEADER__
