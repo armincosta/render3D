@@ -35,4 +35,4 @@ This module source code is part of a software that  renders multiple 3D objects 
 
        
 
-The source code is licensed under the MIT License: see LICENSE file
+The source code is licensed under the GNU GENERAL PUBLIC LICENSE Version 3 License: see LICENSE file
