@@ -2,7 +2,7 @@
 *	CT (Computed Tomography) Tomolog3DMatching and 3D-Shape Visualization Software (3D-Shape1 measures
 *	the log with bark , CT also with bark, and 3D-Shape in debarked status). It provides also an 
 *	interface for testing measurment deviations on pre-build testing engines provided by scientific log research.
-*	Tested in real-time environment at Hasslacher sawmill corporation, Sachsenburg (A);
+*	Tested in real-time environment at a sawmill corporation.
 *	
 *
 *
