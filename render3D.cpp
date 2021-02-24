@@ -231,7 +231,7 @@ void myPrint(float x, float y, float z, char* format, ...);
 void exportLogDataKr(bool writeToFile);  // this is just another Log Analysis for  curvature
 
 BOOL getKruemmungMittellinieBx(LOG *log, int off_start, int off_end);
-BOOL getKruemmungOberflaecheLinz(LOG *log, int off_start, int off_end, int degMaxKr, int diam__); // Microtec Linz
+BOOL getKruemmungOberflaecheLinz(LOG *log, int off_start, int off_end, int degMaxKr, int diam__); // M Linz
 BOOL getKruemmungMittellinieLinz(LOG *log, int off_start, int off_end, int diam__, double *dWinkel);
 BOOL getKrAngle(LOG *log, int off_start, int off_end, int diam__, double *dWinkel);
 void smoothLog(Model3D *pModel);
@@ -714,7 +714,7 @@ int initRendering(int argc, char **argv)
    glutInit(&argc,argv);
    glutInitDisplayMode(GLUT_DOUBLE | GLUT_RGB | GLUT_DEPTH);
 
-   glutCreateWindow("MiCROTEC.at  SLX-Tomolog    Author: Armin Costa");
+   glutCreateWindow("AC  SLX-Tomolog    Author: Armin Costa");
    glutReshapeWindow(550, 500);
    glutPositionWindow(100, 100);
    glutDisplayFunc(Display);
@@ -723,7 +723,7 @@ int initRendering(int argc, char **argv)
    glutSpecialFunc(HandleSpecialKeyboard);
    glutMouseFunc(HandleMouse);
 
-  // glutCreateWindow(GetActiveWindow(), "MiCROTEC.at  -- Tomolog");
+  // glutCreateWindow(GetActiveWindow(), "AC  -- Tomolog");
   // glutCreateSubWindow(NULL, 100, 100, 500, 500);
 
    CreateEnvironment();
